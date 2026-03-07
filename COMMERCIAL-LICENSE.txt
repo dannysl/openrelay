@@ -1,0 +1,69 @@
+OpenRelay Commercial License / 商业许可协议
+
+Copyright (c) 2025-2026 OpenRelay Contributors
+
+================================================================================
+ENGLISH
+================================================================================
+
+This software is distributed under a dual-license model:
+
+1. OPEN SOURCE FRAMEWORK (MIT License)
+   The framework code (routing, proxy infrastructure, format translation, and
+   configuration) is open source under the MIT License. See the LICENSE file
+   for full terms.
+
+2. PRO FEATURES (Commercial License)
+   The following features require a valid Pro license for unlimited use:
+
+   - Unlimited request volume (Free tier: 30 requests/day)
+   - Custom model groups with round-robin routing across multiple providers
+   - Priority support
+
+   All other features — including all 29 providers, IDE RPC proxy servers,
+   Web dashboard, and API format translation — are available in both
+   Free and Pro tiers.
+
+3. RESTRICTIONS
+   - Decompilation, reverse engineering, and redistribution of obfuscated or
+     compiled Pro feature code are prohibited without written permission.
+   - Circumvention of license verification or usage limits is prohibited.
+   - Redistribution of the complete package (including Pro features) requires
+     a commercial redistribution agreement.
+
+4. FREE TIER
+   All providers and core features are available with a daily request limit.
+   No Pro license is required for use within this limit.
+
+For licensing inquiries: https://github.com/romgX/openrelay/issues
+
+================================================================================
+中文
+================================================================================
+
+本软件采用双重许可模式分发：
+
+1. 开源框架（MIT 许可证）
+   框架代码（路由、代理基础设施、格式转换和配置）以 MIT 许可证开源。
+   完整条款见 LICENSE 文件。
+
+2. Pro 功能（商业许可）
+   以下功能需要有效的 Pro 许可证方可无限制使用：
+
+   - 无限请求量（免费版：每日 30 次）
+   - 自定义模型组（跨多个 Provider 轮询路由）
+   - 优先支持
+
+   其他所有功能——包括全部 29 个提供商、IDE RPC 代理服务器、
+   Web 管理面板和 API 格式转换——在免费版和 Pro 版中均可使用。
+
+3. 限制条款
+   - 未经书面许可，禁止反编译、逆向工程和再分发经混淆或编译的 Pro 功能代码。
+   - 禁止规避许可证验证或使用限制。
+   - 再分发完整软件包（包含 Pro 功能）需要签订商业再分发协议。
+
+4. 免费版
+   所有提供商和核心功能均可在每日请求限额内使用。
+   在此限额内无需 Pro 许可证。
+
+许可咨询：https://github.com/romgX/openrelay/issues
