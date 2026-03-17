@@ -125,10 +125,6 @@ xattr -d com.apple.quarantine openrelay   # 仅首次需要
 ./openrelay
 ```
 
-```bash
-# 或通过 npm（需要 Node.js >= 18）
-npm install -g openrelay && openrelay
-```
 
 ## 快速上手
 
@@ -330,12 +326,6 @@ xattr -d com.apple.quarantine openrelay   # first time only
 ./openrelay
 ```
 
-### npm (requires Node.js >= 18)
-
-```bash
-npm install -g openrelay
-openrelay
-```
 
 ## Quick Start
 
