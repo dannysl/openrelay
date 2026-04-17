@@ -379,6 +379,7 @@ Having trouble? Check the **[FAQ (English)](faq-en.md)** | **[常见问题 (中�
 
 ## Community
 
+- QQ Group / QQ 群: **1087788461**
 - LINUX DO: [linux.do](https://linux.do)
 - Telegram Chat: [t.me/openrelay_chat](https://t.me/openrelay_chat)
 - Telegram Updates: [t.me/openrelay_updates](https://t.me/openrelay_updates)
