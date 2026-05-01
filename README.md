@@ -135,11 +135,21 @@ xattr -d com.apple.quarantine openrelay-macos
 
 > `xattr` 命令用于解除 macOS 对未签名程序的安全限制，否则会提示"无法打开"。
 
-**Linux** (x64)：[点击下载 openrelay-linux-x64](https://github.com/romgX/openrelay/releases/latest/download/openrelay-linux-x64)，然后终端执行：
+**Linux**：
+
+- x64：[点击下载 openrelay-linux-x64](https://github.com/romgX/openrelay/releases/latest/download/openrelay-linux-x64)
+- ARM64 / aarch64：[点击下载 openrelay-linux-arm64](https://github.com/romgX/openrelay/releases/latest/download/openrelay-linux-arm64)
+
+然后终端执行对应文件：
 
 ```bash
+# x64
 chmod +x openrelay-linux-x64
 ./openrelay-linux-x64
+
+# ARM64 / aarch64
+chmod +x openrelay-linux-arm64
+./openrelay-linux-arm64
 ```
 
 > Linux 支持的 IDE Provider：Claude Code、Kiro、Windsurf、OpenCode、VS Code Copilot、OpenAI Codex。Claude Desktop 和 Antigravity 目前无 Linux 版本。凭证存取通过 `secret-tool`（gnome-keyring）或文件缓存，无需额外配置。
@@ -348,11 +358,21 @@ xattr -d com.apple.quarantine openrelay-macos
 
 > `xattr` removes macOS Gatekeeper quarantine flag — without it, macOS will block the unsigned binary.
 
-**Linux** (x64): [Download openrelay-linux-x64](https://github.com/romgX/openrelay/releases/latest/download/openrelay-linux-x64), then run in terminal:
+**Linux**:
+
+- x64: [Download openrelay-linux-x64](https://github.com/romgX/openrelay/releases/latest/download/openrelay-linux-x64)
+- ARM64 / aarch64: [Download openrelay-linux-arm64](https://github.com/romgX/openrelay/releases/latest/download/openrelay-linux-arm64)
+
+Then run the matching file in terminal:
 
 ```bash
+# x64
 chmod +x openrelay-linux-x64
 ./openrelay-linux-x64
+
+# ARM64 / aarch64
+chmod +x openrelay-linux-arm64
+./openrelay-linux-arm64
 ```
 
 > Supported IDE providers on Linux: Claude Code, Kiro, Windsurf, OpenCode, VS Code Copilot, OpenAI Codex. Claude Desktop and Antigravity have no Linux builds. Credentials are stored via `secret-tool` (gnome-keyring) or file-based cache — no extra setup needed.
